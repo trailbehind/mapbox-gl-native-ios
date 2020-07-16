@@ -498,6 +498,11 @@ MGL_EXPORT
 - (void)preloadData:(NSData *)data forURL:(NSURL *)url modificationDate:(nullable NSDate *)modified expirationDate:(nullable NSDate *)expires eTag:(nullable NSString *)eTag mustRevalidate:(BOOL)mustRevalidate
     completionHandler:(nullable MGLOfflinePreloadDataCompletionHandler)completion;
 
+/**
+ Fetch a tile from offline storage.
+*/
+- (NSData* _Nullable) fetchTileForTemplate:(NSString*) templateURL pixelRatio:(int) pixelRatio z:(NSInteger)z x:(NSInteger)x y:(NSInteger)y;
+
 @end
 
 /**
