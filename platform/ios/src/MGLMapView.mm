@@ -698,7 +698,9 @@ public:
     MGLAssertIsMainThread();
 
     MGLReachability *reachability = [notification object];
-    if ( ! _isWaitingForRedundantReachableNotification && [reachability isReachable])
+    if(self.disableNetworkAccess){
+        mbgl::NetworkStatus::Set(mbgl::NetworkStatus::Status::Offline);
+    } else if ( ! _isWaitingForRedundantReachableNotification && [reachability isReachable])
     {
         mbgl::NetworkStatus::Reachable();
     }
@@ -2727,6 +2729,21 @@ public:
         options |= mbgl::MapDebugOptions::Overdraw;
     }
     self.mbglMap.setDebug(options);
+}
+
+- (void)setDisableNetworkAccess:(bool)disableNetworkAccess {
+    _disableNetworkAccess = disableNetworkAccess;
+    if(_disableNetworkAccess) {
+        mbgl::NetworkStatus::Set(mbgl::NetworkStatus::Status::Offline);
+    }  else {
+        MGLReachability *reachability = _reachability;
+        if ([reachability isReachable]) {
+            mbgl::NetworkStatus::Set(mbgl::NetworkStatus::Status::Online);
+            mbgl::NetworkStatus::Reachable();
+        } else {
+            mbgl::NetworkStatus::Set(mbgl::NetworkStatus::Status::Offline);
+        }
+    }
 }
 
 - (void)resetNorth
