@@ -279,6 +279,16 @@
 		74CB5ECF219B285000102936 /* MGLRasterStyleLayer_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 74CB5EC9219B285000102936 /* MGLRasterStyleLayer_Private.h */; };
 		74CB5ED1219B286400102936 /* MGLSymbolStyleLayer_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 74CB5ED0219B286400102936 /* MGLSymbolStyleLayer_Private.h */; };
 		74CB5ED2219B286400102936 /* MGLSymbolStyleLayer_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 74CB5ED0219B286400102936 /* MGLSymbolStyleLayer_Private.h */; };
+		8823E33C24C0B1DB0064A074 /* MGLTileListOfflineRegion.h in Headers */ = {isa = PBXBuildFile; fileRef = 8823E33924C0B1DB0064A074 /* MGLTileListOfflineRegion.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8823E33D24C0B1DB0064A074 /* MGLTileListOfflineRegion.h in Headers */ = {isa = PBXBuildFile; fileRef = 8823E33924C0B1DB0064A074 /* MGLTileListOfflineRegion.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8823E33E24C0B1DB0064A074 /* MGLTileListOfflineRegion_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 8823E33A24C0B1DB0064A074 /* MGLTileListOfflineRegion_Private.h */; };
+		8823E33F24C0B1DB0064A074 /* MGLTileListOfflineRegion_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 8823E33A24C0B1DB0064A074 /* MGLTileListOfflineRegion_Private.h */; };
+		8823E34024C0B1DB0064A074 /* MGLTileListOfflineRegion.mm in Sources */ = {isa = PBXBuildFile; fileRef = 8823E33B24C0B1DB0064A074 /* MGLTileListOfflineRegion.mm */; };
+		8823E34124C0B1DB0064A074 /* MGLTileListOfflineRegion.mm in Sources */ = {isa = PBXBuildFile; fileRef = 8823E33B24C0B1DB0064A074 /* MGLTileListOfflineRegion.mm */; };
+		8823E34424C0B3A50064A074 /* MGLTileID.h in Headers */ = {isa = PBXBuildFile; fileRef = 8823E34224C0B3A50064A074 /* MGLTileID.h */; };
+		8823E34524C0B3A50064A074 /* MGLTileID.h in Headers */ = {isa = PBXBuildFile; fileRef = 8823E34224C0B3A50064A074 /* MGLTileID.h */; };
+		8823E34624C0B3A50064A074 /* MGLTileID.m in Sources */ = {isa = PBXBuildFile; fileRef = 8823E34324C0B3A50064A074 /* MGLTileID.m */; };
+		8823E34724C0B3A50064A074 /* MGLTileID.m in Sources */ = {isa = PBXBuildFile; fileRef = 8823E34324C0B3A50064A074 /* MGLTileID.m */; };
 		8989B17C201A48EB0081CF59 /* MGLHeatmapStyleLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 8989B17A201A48EA0081CF59 /* MGLHeatmapStyleLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8989B17D201A48EB0081CF59 /* MGLHeatmapStyleLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 8989B17A201A48EA0081CF59 /* MGLHeatmapStyleLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8989B17E201A48EB0081CF59 /* MGLHeatmapStyleLayer.mm in Sources */ = {isa = PBXBuildFile; fileRef = 8989B17B201A48EA0081CF59 /* MGLHeatmapStyleLayer.mm */; };
@@ -971,6 +981,11 @@
 		74CB5EC8219B285000102936 /* MGLOpenGLStyleLayer_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGLOpenGLStyleLayer_Private.h; sourceTree = "<group>"; };
 		74CB5EC9219B285000102936 /* MGLRasterStyleLayer_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGLRasterStyleLayer_Private.h; sourceTree = "<group>"; };
 		74CB5ED0219B286400102936 /* MGLSymbolStyleLayer_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGLSymbolStyleLayer_Private.h; sourceTree = "<group>"; };
+		8823E33924C0B1DB0064A074 /* MGLTileListOfflineRegion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGLTileListOfflineRegion.h; sourceTree = "<group>"; };
+		8823E33A24C0B1DB0064A074 /* MGLTileListOfflineRegion_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGLTileListOfflineRegion_Private.h; sourceTree = "<group>"; };
+		8823E33B24C0B1DB0064A074 /* MGLTileListOfflineRegion.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = MGLTileListOfflineRegion.mm; sourceTree = "<group>"; };
+		8823E34224C0B3A50064A074 /* MGLTileID.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGLTileID.h; sourceTree = "<group>"; };
+		8823E34324C0B3A50064A074 /* MGLTileID.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGLTileID.m; sourceTree = "<group>"; };
 		8989B17A201A48EA0081CF59 /* MGLHeatmapStyleLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGLHeatmapStyleLayer.h; sourceTree = "<group>"; };
 		8989B17B201A48EA0081CF59 /* MGLHeatmapStyleLayer.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = MGLHeatmapStyleLayer.mm; sourceTree = "<group>"; };
 		920A3E5C1E6F995200C16EFC /* MGLSourceQueryTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MGLSourceQueryTests.m; path = ../../darwin/test/MGLSourceQueryTests.m; sourceTree = "<group>"; };
@@ -1960,6 +1975,8 @@
 				DA88480F1CBAFA6200AB86E3 /* MGLStyle.mm */,
 				DA8847EE1CBAFA5100AB86E3 /* MGLTypes.h */,
 				DA8848111CBAFA6200AB86E3 /* MGLTypes.m */,
+				8823E34224C0B3A50064A074 /* MGLTileID.h */,
+				8823E34324C0B3A50064A074 /* MGLTileID.m */,
 				35E1A4D71D74336F007AA97F /* MGLValueEvaluator.h */,
 				1FCAE2A020B872A400C577DD /* MGLLocationManager.h */,
 				1FCAE2A620B88B3800C577DD /* MGLLocationManager_Private.h */,
@@ -2159,6 +2176,9 @@
 				DA8847ED1CBAFA5100AB86E3 /* MGLTilePyramidOfflineRegion.h */,
 				9221BAAC2069843A0054BDF4 /* MGLTilePyramidOfflineRegion_Private.h */,
 				DA8848101CBAFA6200AB86E3 /* MGLTilePyramidOfflineRegion.mm */,
+				8823E33A24C0B1DB0064A074 /* MGLTileListOfflineRegion_Private.h */,
+				8823E33924C0B1DB0064A074 /* MGLTileListOfflineRegion.h */,
+				8823E33B24C0B1DB0064A074 /* MGLTileListOfflineRegion.mm */,
 			);
 			name = "Offline Maps";
 			sourceTree = "<group>";
@@ -2314,7 +2334,9 @@
 				5580B45B229570A10091291B /* MGLMapView+OpenGL.h in Headers */,
 				DA8847EF1CBAFA5100AB86E3 /* MGLAccountManager.h in Headers */,
 				DA35A2C91CCAAAD200E826B2 /* NSValue+MGLAdditions.h in Headers */,
+				8823E33C24C0B1DB0064A074 /* MGLTileListOfflineRegion.h in Headers */,
 				1F6A82A82138871900BA5B41 /* MGLLoggingConfiguration_Private.h in Headers */,
+				8823E33E24C0B1DB0064A074 /* MGLTileListOfflineRegion_Private.h in Headers */,
 				3510FFEA1D6D9C7A00F413B2 /* NSComparisonPredicate+MGLAdditions.h in Headers */,
 				DA6408DB1DA4E7D300908C90 /* MGLVectorStyleLayer.h in Headers */,
 				DA704CC21F65A475004B3F28 /* MGLMapAccessibilityElement.h in Headers */,
@@ -2337,6 +2359,7 @@
 				DA88482E1CBAFA6200AB86E3 /* NSException+MGLAdditions.h in Headers */,
 				74CB5ED1219B286400102936 /* MGLSymbolStyleLayer_Private.h in Headers */,
 				9221BAAD2069843A0054BDF4 /* MGLTilePyramidOfflineRegion_Private.h in Headers */,
+				8823E34424C0B3A50064A074 /* MGLTileID.h in Headers */,
 				96F3F73C1F57124B003E2D2C /* MGLUserLocationHeadingIndicator.h in Headers */,
 				408AA8571DAEDA1700022900 /* NSDictionary+MGLAdditions.h in Headers */,
 				DA88483F1CBAFB8500AB86E3 /* MGLUserLocation.h in Headers */,
@@ -2478,7 +2501,9 @@
 				96E516F720005A2700A02306 /* MGLAnnotationContainerView.h in Headers */,
 				DABFB8691CBE99E500D62B32 /* MGLShape.h in Headers */,
 				9620BB391E69FE1700705A1D /* MGLSDKUpdateChecker.h in Headers */,
+				8823E33D24C0B1DB0064A074 /* MGLTileListOfflineRegion.h in Headers */,
 				3510FFEB1D6D9C7A00F413B2 /* NSComparisonPredicate+MGLAdditions.h in Headers */,
+				8823E33F24C0B1DB0064A074 /* MGLTileListOfflineRegion_Private.h in Headers */,
 				35E1A4D91D74336F007AA97F /* MGLValueEvaluator.h in Headers */,
 				DABFB8701CBE9A0F00D62B32 /* MGLMapView+IBAdditions.h in Headers */,
 				CAFB3C15234505D500399265 /* MGLMapSnapshotter_Private.h in Headers */,
@@ -2501,6 +2526,7 @@
 				1FC4817F2098CD80000D09B4 /* NSPredicate+MGLPrivateAdditions.h in Headers */,
 				DABFB8671CBE99E500D62B32 /* MGLPolygon.h in Headers */,
 				404C26E81D89C55D000AA13D /* MGLTileSource_Private.h in Headers */,
+				8823E34524C0B3A50064A074 /* MGLTileID.h in Headers */,
 				74CB5EBC219B280400102936 /* MGLFillExtrusionStyleLayer_Private.h in Headers */,
 				9C6E282F22A9824B0056B7BE /* MGLTelemetryConfig.h in Headers */,
 				1F7454931ECBB43F00021D39 /* MGLLight.h in Headers */,
@@ -3108,6 +3134,7 @@
 				3538AA1F1D542239008EC33D /* MGLForegroundStyleLayer.mm in Sources */,
 				DA00FC901D5EEB0D009AABC8 /* MGLAttributionInfo.mm in Sources */,
 				DA88482D1CBAFA6200AB86E3 /* NSBundle+MGLAdditions.m in Sources */,
+				8823E34624C0B3A50064A074 /* MGLTileID.m in Sources */,
 				966FCF541F3C323300F2B6DE /* MGLUserLocationHeadingArrowLayer.m in Sources */,
 				DA88485B1CBAFB9800AB86E3 /* MGLUserLocation.m in Sources */,
 				927FBD011F4DB05500F8BF1F /* MGLMapSnapshotter.mm in Sources */,
@@ -3145,6 +3172,7 @@
 				DA8848291CBAFA6200AB86E3 /* MGLStyle.mm in Sources */,
 				357FE2DF1E02D2B20068B753 /* NSCoder+MGLAdditions.mm in Sources */,
 				1FF48589223710BE00F19727 /* MGLAttributedExpression.m in Sources */,
+				8823E34024C0B1DB0064A074 /* MGLTileListOfflineRegion.mm in Sources */,
 				DA88481C1CBAFA6200AB86E3 /* MGLGeometry.mm in Sources */,
 				558DE7A21E5615E400C7916D /* MGLFoundation.mm in Sources */,
 				3510FFF21D6D9D8C00F413B2 /* NSExpression+MGLAdditions.mm in Sources */,
@@ -3208,6 +3236,7 @@
 				DAA4E4201CBB730400178DFB /* MGLOfflinePack.mm in Sources */,
 				966FCF551F3C323500F2B6DE /* MGLUserLocationHeadingArrowLayer.m in Sources */,
 				DAA4E4331CBB730400178DFB /* MGLUserLocation.m in Sources */,
+				8823E34724C0B3A50064A074 /* MGLTileID.m in Sources */,
 				927FBD021F4DB05500F8BF1F /* MGLMapSnapshotter.mm in Sources */,
 				350098BE1D480108004B2AF0 /* MGLVectorTileSource.mm in Sources */,
 				3566C76F1D4A8DFA008152BC /* MGLRasterTileSource.mm in Sources */,
@@ -3245,6 +3274,7 @@
 				3510FFF31D6D9D8C00F413B2 /* NSExpression+MGLAdditions.mm in Sources */,
 				DAA4E4321CBB730400178DFB /* MGLMapView.mm in Sources */,
 				1FF4858A223710BE00F19727 /* MGLAttributedExpression.m in Sources */,
+				8823E34124C0B1DB0064A074 /* MGLTileListOfflineRegion.mm in Sources */,
 				DAA4E41E1CBB730400178DFB /* MGLMapCamera.mm in Sources */,
 				FA68F14E1E9D656600F9F6C2 /* MGLFillExtrusionStyleLayer.mm in Sources */,
 				1F7454921ECBB42C00021D39 /* MGLLight.mm in Sources */,
